@@ -1,77 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
 }
 
 body {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 5px;
-  background: #446b51;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background: #446b51;
 }
 
 body h2 {
-  color: white;
+    color: white;
 }
 
 main {
-  background-color: white;
-  padding: 10px;
-  border-radius: 10px;
-  width: 100%;
-  max-width: 300px;
-  min-height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .content {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  gap: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
 }
 
 .spnQtd {
-  text-align: end;
+    text-align: end;
 }
 
 .answers {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 button {
-  width: 100%;
-  text-align: start;
-  padding: 5px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  background-color: #263f28;
-  color: white;
-  transition: background-color 0.3s ease; 
+    width: 100%;
+    text-align: start;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #263f28;
+    color: white;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #3e6542; 
+    background-color: #3e6542;
 }
 
 .finish {
-  display: none;
-  flex-direction: column;
-  gap: 10px;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .finish button {
-  text-align: center;
+    text-align: center;
+}
+
+.finish span {
+    display: block;
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
 }
